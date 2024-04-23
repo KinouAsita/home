@@ -21,7 +21,7 @@
         <!-- 站点备案 -->
         <a v-if="siteIcp" href="https://beian.miit.gov.cn" target="_blank">
           &amp;
-          {{ 苏ICP备2023047556号 }}
+          {{ siteIcp }}
         </a>
       </div>
       <div v-else class="lrc">
